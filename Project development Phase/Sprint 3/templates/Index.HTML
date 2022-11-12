@@ -37,10 +37,14 @@
 </script>
 
 <body>
-
+  <section align='center'>
   <h1 class="welcome">IBM PROJECT
-  <div id="team_id">TEAM ID : PNT2022TMID27873</div>
+
+
+  <div id="team_id">TEAM ID : PNT2022TMID33797</div>
   </h1>
+  </section>
+  
   <section id="title">
     <h4 class="heading">Handwritten Digit Recognition Website</h4>
     <br><br>
@@ -62,13 +66,13 @@
 
   </section>
 
-  <section id="content">
+  <section id="content" align='center'>
 
         <div class="leftside">
         <form action="/predict" method="POST" enctype="multipart/form-data">
         <label>Select a image:</label>
         <input id="image" type="file" name="image" accept="image/png, image/jpeg" onchange="preview()"><br><br>
-          <img id="frame" src="" width="100px" height="100px"/>
+          <img id="frame" src="" width="200px" height="200px"/>
           <div class="buttons_div">
             <button type="submit" class="btn btn-dark" id="predict_button">Predict</button>
             <button type="button" class="btn btn-dark" id="clear_button">&nbsp Clear &nbsp</button>
