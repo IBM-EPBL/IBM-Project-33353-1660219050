@@ -2,4 +2,6 @@
 - Mishael K vabeizisa
 ![](screenshot_profile/ibm-accound.png)
 - Lalramdina
-![](screenshot_profile/Screenshot_2022-11-15-12-19-25-697_com.android.chrome.jpg)
+![](screenshot_profile/IMG_20221115_144201.jpg)
+- Pc Lalnunhlima
+![](screenshot_profile/Screenshot (3).png)
