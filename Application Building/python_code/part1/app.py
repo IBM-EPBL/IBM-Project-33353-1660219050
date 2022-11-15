@@ -38,10 +38,7 @@ def upload():
 
         pred = model.predict(im2arr)
 
-        num = np.argmax(pred, axis=1)  # printing our Labels
-
-        return render_template('predict.html', num=str(num[0]))
-
+        print(pred)
 
 if __name__ == '__main__':
     app.run(debug=True, threaded=False)
